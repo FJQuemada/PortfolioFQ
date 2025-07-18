@@ -1,0 +1,10 @@
+<nav>
+  <div>
+    @for (item of secciones; track item; let idx = $index) {
+    <a [href]="item.enlace">{{ item.nombre }}</a>
+    } @empty {
+    <a>There are no items.</a>
+    }
+  </div>
+  <img src="ddd.gif" alt="" class="rounded-full size-4/12" />
+</nav>

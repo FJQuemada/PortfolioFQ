@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: #f8f3fa;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+a:hover {
+  color: #ddcce6;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  background-color: #100b24;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+  position: fixed;
+  z-index: 1000;
+  margin-top: 10px;
+}
