@@ -14,7 +14,6 @@ body {
       rgba(0, 0, 0, 0.7)
     ),
     /* Luz superior */ linear-gradient(135deg, #151849, #280e58, #2b0d35); /* Fondo principal */
-  height: 100vh;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }

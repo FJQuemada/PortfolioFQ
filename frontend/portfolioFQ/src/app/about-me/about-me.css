@@ -1,0 +1,17 @@
+.redes svg {
+  fill: #f8f3fa;
+  transition: 0.3s ease;
+  width: 40px;
+}
+
+.redes svg:hover {
+  cursor: pointer;
+}
+
+#linkedin:hover {
+  fill: #0077b5;
+}
+
+#github:hover {
+  fill: #6e5494;
+}
