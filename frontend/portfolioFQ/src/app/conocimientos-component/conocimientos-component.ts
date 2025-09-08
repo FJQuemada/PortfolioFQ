@@ -9,9 +9,9 @@ import { Component } from '@angular/core';
 export class ConocimientosComponent {
   conocimientosBackend: { nombre: string; imagen: string }[] = [
     { nombre: 'Spring Boot', imagen: 'assets/logos/backend/spring.svg' },
-    { nombre: 'JavaScript', imagen: 'assets/logos/backend/javascript.svg' },
+    { nombre: 'JavaScript', imagen: 'assets/logos/backend/js.svg' },
     { nombre: 'Java', imagen: 'assets/logos/backend/java.svg' },
-    { nombre: 'Node.js', imagen: 'assets/logos/backend/nodejs.svg' },
+    { nombre: 'Node.js', imagen: 'assets/logos/backend/node.svg' },
     { nombre: 'Python', imagen: 'assets/logos/backend/python.svg' },
     { nombre: 'Django', imagen: 'assets/logos/backend/django.svg' },
   ];
@@ -21,11 +21,14 @@ export class ConocimientosComponent {
     { nombre: 'TailwindCSS', imagen: 'assets/logos/frontend/tailwindcss.svg' },
   ];
   conocimientosDatabase: { nombre: string; imagen: string }[] = [
-    { nombre: 'MySQL', imagen: 'assets/logos/database/mysql.svg' },
-    { nombre: 'PostgreSQL', imagen: 'assets/logos/database/postgresql.svg' },
+    { nombre: 'MySQL', imagen: 'assets/logos/framework-database/mysql.svg' },
+    {
+      nombre: 'PostgreSQL',
+      imagen: 'assets/logos/framework-database/postgresql.svg',
+    },
   ];
   conocimientosTools: { nombre: string; imagen: string }[] = [
-    { nombre: 'Git', imagen: 'assets/logos/tools/git.svg' },
-    { nombre: 'Docker', imagen: 'assets/logos/tools/docker.svg' },
+    { nombre: 'Git', imagen: 'assets/logos/framework-tools/git.svg' },
+    { nombre: 'Docker', imagen: 'assets/logos/framework-tools/docker.svg' },
   ];
 }

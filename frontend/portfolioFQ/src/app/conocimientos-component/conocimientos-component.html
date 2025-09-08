@@ -1,4 +1,4 @@
-<div class="flex items-center mt-20">
+<div class="flex mt-20">
   <svg
     viewBox="0 0 24 24"
     id="Layer_1"
@@ -6,7 +6,7 @@
     xmlns="http://www.w3.org/2000/svg"
     fill="#000000"
     stroke="#000000"
-    class="size-12"
+    class="size-12 mr-3"
   >
     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
     <g
@@ -47,9 +47,40 @@
   <h2 class="text-5xl font-thin">Conocimientos</h2>
 </div>
 
-@for (item of conocimientosBackend; track $index) {
-<div>
-  <img [src]="item.imagen" [alt]="item.nombre" width="80" />
-  <p>{{ item.nombre }}</p>
+<div class="flex mt-10 items-center space-x-5 justify-center flex-wrap">
+  <div class="flex space-x-5 p-5 bg-[#61dafb25] rounded-full">
+    @for (item of conocimientosFrontend; track $index) {
+    <div class="conocimiento flex items-center justify-center relative">
+      <img [src]="item.imagen" [alt]="item.nombre" class="w-[80px]" />
+      <p class="absolute bottom-0 opacity-0">{{ item.nombre }}</p>
+    </div>
+    }
+  </div>
+  <!-- -->
+  <div class="flex space-x-5 p-5 bg-[#4CAF5025] rounded-full">
+    @for (item of conocimientosBackend; track $index) {
+    <div class="conocimiento flex items-center justify-center relative">
+      <img [src]="item.imagen" [alt]="item.nombre" class="w-[80px]" />
+      <p class="absolute bottom-0 opacity-0 text-nowrap">{{ item.nombre }}</p>
+    </div>
+    }
+  </div>
+  <!-- -->
+  <div class="flex space-x-5 p-5 bg-[#f2910025] rounded-full">
+    @for (item of conocimientosDatabase; track $index) {
+    <div class="conocimiento flex items-center justify-center relative">
+      <img [src]="item.imagen" [alt]="item.nombre" class="w-[80px]" />
+      <p class="absolute bottom-0 opacity-0">{{ item.nombre }}</p>
+    </div>
+    }
+  </div>
+  <!-- -->
+  <div class="flex space-x-5 p-5 bg-[#7f5fc525] rounded-full">
+    @for (item of conocimientosTools; track $index) {
+    <div class="conocimiento flex items-center justify-center relative">
+      <img [src]="item.imagen" [alt]="item.nombre" class="w-[80px]" />
+      <p class="absolute bottom-0 opacity-0">{{ item.nombre }}</p>
+    </div>
+    }
+  </div>
 </div>
-}

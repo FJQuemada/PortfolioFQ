@@ -1,0 +1,26 @@
+.conocimiento:hover p {
+  opacity: 1;
+}
+
+.conocimiento:hover img {
+  filter: brightness(0.7);
+}
+
+img {
+  transition: filter 0.3s ease;
+}
+
+.conocimiento p {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 1rem;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.conocimiento img {
+  width: 70px;
+  height: 70px;
+}
