@@ -1,0 +1,10 @@
+.test {
+  background: #4e4a61;
+  background: linear-gradient(
+    180deg,
+    rgba(78, 74, 97, 0) 0%,
+    rgba(84, 62, 97, 0) 0%,
+    rgba(84, 62, 97, 0.658) 30%,
+    rgb(0, 35, 46) 100%
+  );
+}

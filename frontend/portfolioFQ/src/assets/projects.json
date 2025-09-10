@@ -1,0 +1,23 @@
+[
+  {
+    "titulo": "DriveHub",
+    "descripcion": "DriveHub es un proyecto de fin de grado que combina un foro interactivo con una plataforma de tests tipo autoescuela, donde los usuarios pueden registrarse, hacer exámenes y participar en debates.",
+    "img": "drivehub.png",
+    "url": "",
+    "frameworks": ["React", "Tailwind", "Django", "DRF", "PostgreSQL", "JWT"]
+  },
+  {
+    "titulo": "Explodding Kittens",
+    "descripcion": "Exploding Kittens es un juego de cartas digital donde los usuarios compiten evitando la carta explosiva en partidas rápidas y divertidas.",
+    "img": "expkitten.png",
+    "url": "",
+    "frameworks": ["React", "Tailwind", "Django", "DRF", "PostgreSQL", "JWT"]
+  },
+  {
+    "titulo": "DriveHub",
+    "descripcion": "DriveHub es un proyecto de fin de grado que combina un foro interactivo con una plataforma de tests tipo autoescuela, donde los usuarios pueden registrarse, hacer exámenes y participar en debates.",
+    "img": "drivehub.png",
+    "url": "",
+    "frameworks": ["React", "Tailwind", "Django", "DRF", "PostgreSQL", "JWT"]
+  }
+]

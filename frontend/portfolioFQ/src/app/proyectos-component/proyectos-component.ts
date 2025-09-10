@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { ProyectoComponent } from '../proyecto-component/proyecto-component';
+import ProyectoJson from '../../assets/projects.json';
 
 @Component({
   selector: 'app-proyectos-component',
-  imports: [],
+  imports: [ProyectoComponent],
   templateUrl: './proyectos-component.html',
-  styleUrl: './proyectos-component.css'
+  styleUrls: ['./proyectos-component.css'],
 })
 export class ProyectosComponent {
-
+  proyectos = ProyectoJson;
 }

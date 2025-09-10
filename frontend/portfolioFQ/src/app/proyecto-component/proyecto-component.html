@@ -1,0 +1,41 @@
+<div
+  class="w-full mb-10 flex"
+  [ngClass]="{'justify-start': isReversed, 'justify-end': !isReversed}"
+>
+  <div
+    class="backg group w-7/12 overflow-hidden relative mb-10 rounded-xl shadow-2xl shadow-purple-900/20"
+  >
+    <!-- Imagen -->
+    <img
+      src="{{ img }}"
+      alt="{{ name }}"
+      class="w-full duration-300 opacity-80 mask-b-from-20% mask-b-to-75% group-hover:scale-[1.05]"
+    />
+
+    <!-- Texto -->
+    <div
+      class="text-center absolute bottom-0 left-0 right-0 text-white p-2 group-hover:bottom-9 duration-300"
+    >
+      <h3 class="text-xl font-bold text-white">{{ name }}</h3>
+
+      <div
+        class="flex flex-wrap gap-3 mt-3 text-base text-gray-200 justify-center"
+      >
+        @for (item of frameworks; track $index) {
+        <span>{{item}}</span>
+        }
+      </div>
+
+      <p class="mt-4">{{ description }}</p>
+    </div>
+    <div
+      class="absolute -bottom-15 right-0 left-0 p-1 text-center group-hover:bottom-2 duration-300"
+    >
+      <a
+        href="{{ url }}"
+        class="group-hover:opacity-100 duration-300 py-1 px-4 bg-emerald-800 rounded-2xl"
+        >GitHub</a
+      >
+    </div>
+  </div>
+</div>
