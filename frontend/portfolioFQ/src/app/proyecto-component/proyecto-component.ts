@@ -12,6 +12,8 @@ export class ProyectoComponent {
   @Input() description = '';
   @Input() img = '';
   @Input() url = '';
+  @Input() button = '';
+  @Input() buttonColor = '';
   @Input() frameworks: string[] = [];
   @Input() isReversed: boolean = true;
 }
