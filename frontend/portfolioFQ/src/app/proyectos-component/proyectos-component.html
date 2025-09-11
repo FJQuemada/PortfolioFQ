@@ -1,4 +1,4 @@
-<div id="containerProyectos" class="mb-10">
+<div id="containerProyectos" class="mb-14">
   <div class="flex items-center mt-20 mb-10">
     <svg
       fill="#ffffff"
@@ -30,30 +30,17 @@
     <h2 class="text-5xl font-thin">Proyectos</h2>
   </div>
 
+  @for (item of proyectos; track $index) {
   <app-proyecto-component
-    name="{{ proyectos[0].titulo }}"
-    description="{{ proyectos[0].descripcion }}"
-    img="{{ proyectos[0].img }}"
-    url="{{ proyectos[0].url }}"
-    [frameworks]="proyectos[0].frameworks"
-    [isReversed]="true"
-  ></app-proyecto-component>
-
-  <app-proyecto-component
-    name="{{ proyectos[1].titulo }}"
-    description="{{ proyectos[1].descripcion }}"
-    img="{{ proyectos[1].img }}"
-    url="{{ proyectos[1].url }}"
-    [frameworks]="proyectos[1].frameworks"
-    [isReversed]="false"
-  ></app-proyecto-component>
-
-  <app-proyecto-component
-    name="{{ proyectos[2].titulo }}"
-    description="{{ proyectos[2].descripcion }}"
-    img="{{ proyectos[2].img }}"
-    url="{{ proyectos[2].url }}"
-    [frameworks]="proyectos[2].frameworks"
-    [isReversed]="true"
-  ></app-proyecto-component>
+    name="{{ item.titulo}}"
+    description="{{ item.descripcion }}"
+    img="{{ item.img }}"
+    url="{{ item.url }}"
+    button="{{ item.button }}"
+    buttonColor="{{ item.buttonColor }}"
+    [frameworks]="item.frameworks"
+    [isReversed]="item.isReversed"
+  >
+  </app-proyecto-component>
+  }
 </div>
