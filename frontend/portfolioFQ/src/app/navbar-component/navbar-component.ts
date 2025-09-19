@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   secciones: { nombre: string; enlace: string }[] = [
+    { nombre: 'Inicio', enlace: '#containerInicio' },
     { nombre: 'Sobre mí', enlace: '#containerSobreMi' },
     { nombre: 'Conocimientos', enlace: '#containerConocimientos' },
     { nombre: 'Proyectos', enlace: '#containerProyectos' },
-    { nombre: 'Aspiraciones', enlace: '#containerAspiraciones' },
+    { nombre: 'Experiencia', enlace: '#containerExperiencia' },
     { nombre: 'Contacto', enlace: '#containerContacto' },
   ];
 }
