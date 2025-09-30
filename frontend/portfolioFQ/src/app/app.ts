@@ -6,6 +6,7 @@ import { IntroduccionComponent } from './introduccion-component/introduccion-com
 import { ConocimientosComponent } from './conocimientos-component/conocimientos-component';
 import { ProyectosComponent } from './proyectos-component/proyectos-component';
 import { ExperienciaComponent } from './experiencia-component/experiencia-component';
+import { ContactoComponent } from './contacto-component/contacto-component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { ExperienciaComponent } from './experiencia-component/experiencia-compon
     ConocimientosComponent,
     ProyectosComponent,
     ExperienciaComponent,
+    ContactoComponent,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
