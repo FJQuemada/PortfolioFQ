@@ -3,24 +3,24 @@
     "titulo": "DriveHub",
     "descripcion": "DriveHub es un proyecto de fin de grado que combina un foro interactivo con una plataforma de tests tipo autoescuela, donde los usuarios pueden registrarse, hacer exámenes y participar en debates.",
     "img": "drivehub.png",
-    "url": "",
+    "url": "https://github.com/FJQuemada/TFG-Autoescuela",
     "button": "Repositorio de GitHub",
     "buttonColor": "bg-emerald-800",
     "frameworks": ["React", "Tailwind", "Django", "DRF", "PostgreSQL", "JWT"],
     "isReversed": true
   },
   {
-    "titulo": "Explodding Kittens",
+    "titulo": "Exploding Kittens",
     "descripcion": "Exploding Kittens es un juego de cartas digital donde los usuarios compiten evitando la carta explosiva en partidas rápidas y divertidas.",
     "img": "expkitten.png",
-    "url": "",
+    "url": "https://github.com/FJQuemada/ExplodingKittens",
     "button": "Repositorio de GitHub",
     "buttonColor": "bg-emerald-800",
     "frameworks": ["React", "Tailwind", "Node", "PostgreSQL"],
     "isReversed": false
   },
   {
-    "titulo": "WhatToNext",
+    "titulo": "Recomendador de entretenimiento",
     "descripcion": "Plataforma web que recomienda entretenimiento en función de lo que el usuario ya ha visto, ayudando a decidir fácilmente qué ver a continuación.",
     "img": "whatToNext.jpg",
     "url": "",
@@ -28,15 +28,5 @@
     "buttonColor": "bg-red-800",
     "frameworks": ["Angular", "Tailwind", "Spring Boot", "PostgreSQL"],
     "isReversed": true
-  },
-  {
-    "titulo": "Proyecto C++",
-    "descripcion": "Mi primer proyecto el cual consistía en hacer un mapa en 2d con diferentes elementos al puro estilo rpg.",
-    "img": "cppproject.png",
-    "url": "",
-    "button": "Repositorio de GitHub",
-    "buttonColor": "bg-emerald-800",
-    "frameworks": ["C++", "Qt"],
-    "isReversed": false
   }
 ]
