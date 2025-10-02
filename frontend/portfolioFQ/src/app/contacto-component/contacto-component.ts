@@ -16,4 +16,16 @@ export class ContactoComponent {
     link.click();
     document.body.removeChild(link);
   }
+
+  copiado: boolean = false;
+
+  copiarEmail(): void {
+    const email = 'fjquemadavalle@outlook.com';
+    navigator.clipboard.writeText(email).then(() => {
+      this.copiado = true;
+      setTimeout(() => {
+        this.copiado = false;
+      }, 2000);
+    });
+  }
 }
